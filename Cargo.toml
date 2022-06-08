@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "aes_default",
+    "aes_t_table",
+]

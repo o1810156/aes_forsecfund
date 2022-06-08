@@ -1,0 +1,17 @@
+[package]
+name = "aes_t_table"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+dhat = "0.3.0"
+
+[dependencies.aes]
+git = "https://github.com/o1810156/aes"
+rev = "6f9bfbfc629814955ea4823e58a1a5eaaa6328cf"
+
+[features]
+dhat-heap = []
